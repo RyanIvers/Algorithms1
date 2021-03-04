@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JQFunction</title>
+        <link rel="stylesheet" type="text/css" href="JQueryFunction.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#hide").click(function(){
+                    $(this).hide();
+                });
+                $( "#click" ).click(function() {
+                    alert("hello");
+                });
+                $("#show").click(function(){
+                    $("#showimg").show();
+                });
+                $("#append").click(function(){
+                    $(this).append("<p>Wicked</p>");
+                });
+                $("#addClass").click(function(){
+                    $("h1").addClass("classs");
+                });
+                $("#fadeIn").click(function(){
+                    $("#fadeimg").fadeIn(function(){
+
+                    })
+                });
+                $("#fadeOut").click(function(){
+                    $("p").fadeOut();
+                });
+                $("#slideDown").click(function() {
+                    $("#slideDown2").slideDown(function(){
+
+                    })
+                });
+                
+                $("#slideUp").click(function(){
+                    $(this).slideUp();
+
+                    });
+                $("#slideToggle").click(function() {
+                    $("#slideToggle2").slideToggle(function(){
+
+                    })
+                }); 
+                $("#Toggle").click(function() {
+                    $("#Toggle2").toggle(function(){
+
+                    })
+                }); 
+                $("#before").click(function(){
+                    $(this).before("<p>Wicked</p>");
+                });
+                $("#after").click(function(){
+                    $(this).after("<p>Wicked</p>");
+                });
+                $("#html").click(function(){
+                    $("h1").html("You're Awesome")
+                });
+                $("#attr").click(function(){
+                    $("#surfAttr").attr("Radical Wave Bro")
+                });
+                $("val").click(function(){
+                    $("val1").val("Ryan Ivers");
+                });
+                $("#text").click(function(){
+                    $("p").text("You're Awesome");
+                });
+            })
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="function">
+                <h1>Click</h1>
+                <button id="click">Click</button>
+                <p>HELLO</p>
+            </div>
+            
+            <div class="function">
+                <h1>Hide</h1>
+                <button id="hide">Hide</button>
+                <p>Click to hide this button</p>
+            </div>
+            <div class="function">
+                <h1>Show</h1>
+                <button id="show">Show</button>
+                <img id="showimg" src="/Users/ryanivers/Desktop/IMG_4622.jpg">
+                <p>Show me a hot dude</p>
+            </div>
+            <div class="function">
+                <h1>Toggle</h1>
+                <button id="Toggle">Toggle</button>
+                <p>Click to toggle this button</p>
+                <img id="Toggle2" src="/Users/ryanivers/Desktop/IMG_4622.jpg">
+            </div>
+            <div class="function">
+                <h1>SlideDown</h1>
+                <button id="slideDown">SlideDown</button>
+                <p>Click to slide down</p>
+                <img id="slideDown2" src="/Users/ryanivers/Desktop/IMG_4622.jpg">
+            </div>
+            <div class="function">
+                <h1>SlideUp</h1>
+                <button id="slideUp">SlideUp</button>
+                <p>Click to slide up</p>
+                
+            </div>
+            <div class="function">
+                <h1>SlideToggle</h1>
+                <button id="slideToggle">SlideToggle</button>
+                <p>Click to slide Toggle</p>
+                <img id="slideToggle2" img src="/Users/ryanivers/Desktop/IMG_4622.jpg">
+            </div>
+            <div class="function">
+                <h1>FadeIn</h1>
+                <button id="fadeIn">fadein</button>
+                <p>Click to catch the fade!</p>
+                <img id="fadeimg" src="/Users/ryanivers/Desktop/IMG_4622.jpg">
+            </div>
+            <div class="function">
+                <h1>FadeOut</h1>
+                <button id="fadeOut">FadeOut</button>
+                <p>Click to fade out</p>
+            </div>
+            <div class="function">
+                <h1>AddClass</h1>
+                <button id="addClass">AddClass</button>
+                <p>Click to add a new class</p>
+            </div>
+            <div class="function">
+                <h1>Before</h1>
+                <button id="before">Before</button>
+                <p>Click to place before</p>
+            </div>
+            <div class="function">
+                <h1>After</h1>
+                <button id="after">After</button>
+                <p>Click to place after</p>
+            </div>
+            <div class="function">
+                <h1>Append</h1>
+                <button id="append">Append</button>
+                <p>Click to append</p>
+            </div>
+            <div class="function">
+                <h1>HTML</h1>
+                <button id="html">HTML</button>
+                <p>Click to change HTML</p>
+            </div>
+            <div class="function">
+                <h1>ATTR</h1>
+                <button id="attr">ATTR</button>
+                <p>Click to attribute!</p>
+                <img id="surfAttr" src="/Users/ryanivers/Desktop/TKnox.jpg">
+            </div>
+            <div class="function">
+                <h1>Val</h1>
+                <button id="val">Val</button>
+                <p>Click to add new value!</p>
+                <input id="val1" type="text" value="Ryan Ivers">
+            </div>
+            <div class="function">
+                <h1>Text</h1>
+                <button id="text">Text</button>
+                <p>Click to change text!</p>
+            </div>
+        </div>
+        
+        
+    </body>
+
+</html>

@@ -1,0 +1,71 @@
+#container {
+    width: 970px;
+    height: auto;
+    background-color: gray;
+
+}
+
+h1 {
+    text-align: center;
+    
+
+}
+
+p {
+    text-align: center;
+
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: green;
+    background-color: black;
+    margin-left: 100px;
+}
+
+.function {
+    border: 2px black solid;
+}
+
+#showimg {
+    display: none;
+    width: 30px;
+    height: 50px;
+}
+
+.classs {
+    color: blue;
+}
+
+#fadeimg {
+    display:  none;
+    width: 75px;
+    height: 50px;
+
+}
+
+#slideDown2 {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+#slideToggle2 {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+#Toggle2 {
+    display: none;
+    width: 75px;
+    height: 75px;
+}
+
+#surfAttr {
+    display: none;
+    width: 75px;
+    height: 75px;
+}
+
